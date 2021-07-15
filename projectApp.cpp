@@ -22,7 +22,7 @@ IMPLEMENT_APP(projectApp);
 
 bool projectApp::OnInit()
 {
-    projectFrame* frame = new projectFrame(0L);
+    projectFrame* frame = new projectFrame(0L, _("wxWidgets Application Template"));
     
     frame->Show();
     
